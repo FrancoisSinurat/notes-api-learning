@@ -37,7 +37,6 @@ const addNoteHandler = (request, h) => {
     status: "fail",
     message: "Catatan gagal ditambahkan",
   });
-  response.code(500);
   return response;
 };
 // Get ALL Notes Handler
